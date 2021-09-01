@@ -18,10 +18,7 @@
         "BOT_TOKEN": {
             "description": "Make a bot from @BotFather, and enter it's api token here.",
             "value": ""
-        },
-        "OWNER": {
-            "description": "Get ur Id Of Telegram nd Paste Here.",
-            "value": ""
+            
         },
         "THUMBNAIL": {
             "description": "Put Link of any picture.",
