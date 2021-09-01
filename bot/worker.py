@@ -36,13 +36,8 @@ async def stats(e):
 
 async def encod(event):
     try:
-        if not event.is_private:
-            return
-        event.sender
-        if str(event.sender_id) not in OWNER:
-            return
         if not event.media:
-            return
+            print("This format cant be encoded")
         if hasattr(event.media, "document"):
             if not event.media.document.mime_type.startswith(
                 ("video", "application/octet-stream")
