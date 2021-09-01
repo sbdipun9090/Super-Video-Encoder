@@ -100,7 +100,6 @@ async def something():
     for i in range(9999999999999999999999999):  # ik very weird way 😅😅
         try:
             if not WORKING and QUEUE:
-                user = int(OWNER.split()[0])
                 e = await bot.send_message(user, "📥Downloding Queue Files📥")
                 dl, file = QUEUE[list(QUEUE.keys())[0]]
                 s = dt.now()
