@@ -1,3 +1,3 @@
-## Deploys 
+# Deploys 
 
-https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FDark-super-me%2FBoi&envs=API_HASH%2CAPP_ID%2CBOT_TOKEN%2COWNER%2CFFMPEG%2CTHUMBNAIL&API_HASHDesc=Get+this+at+telegram.org&APP_IDDesc=Get+this+at+telegram.org&BOT_TOKENDesc=Get+this+token+at+%40Botfather+on+telegram+&OWNERDesc=Your+telegram+id&FFMPEGDesc=Your+ffmpeg+code+&THUMBNAILDesc=Your+telegraph+link+for+thumbnail+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FDark-super-me%2FSuper-Video-Encoder&envs=API_HASH%2CAPP_ID%2CFFMPEG%2COWNER%2CTHUMBNAIL&optionalEnvs=FFMPEG%2CTHUMBNAIL&API_HASHDesc=Get+this+value+from+telegram.org+or+use+telegram+scrapper+bots+%28dont+blame+me+for+any+scams%29&APP_IDDesc=Get+this+from+telegram.org+or+use+telegram+scrapper+bot+&FFMPEGDesc=Add+your+ffmpeg+code+or+leave+it+as+it+is+&OWNERDesc=Add+ur+owner+ID+%2C+dont+delete+the+default+ID+&THUMBNAILDesc=Add+ur+telegraph+link+of+ur+desired+thumbnail+&OWNERDefault=1666551439)
