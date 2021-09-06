@@ -4,7 +4,7 @@
 
 ### A Telegram Super Video Encoder 
 
-- 'Queue Feature` This bot has queue feature.
+- `Queue Feature` This bot has queue feature.
 - `Thumbnail Feature` This bot has multiple thumbnail feature.
 - `Ffmpeg Feature` - We can change ffmpeg code anytime through .env vars.
 - `Authorize Feature` - Only those can use the bot whose telegram id is in .env vars.
