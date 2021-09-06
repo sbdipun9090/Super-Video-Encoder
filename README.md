@@ -32,3 +32,9 @@
 
 - [Thanks](https://github.com/1Danish-00/CompressorBot)
 
+
+
+### Credits:
+* [Dark](https://t.me/Bro_isDarkal)
+* [Kai84](https://t.mr/Kai_8_4)
+
