@@ -21,10 +21,6 @@ cmake aom/ -DBUILD_SHARED_LIBS=1  && \
 make  && \
 sudo checkinstall -y --deldoc=yes --pkgversion=1.0.0  && \
 cd ..
-RUN apt-get install build-essential curl tar libass-dev libtheora-dev libvorbis-dev libtool cmake automake autoconf -y && \
-apt-get update  && \
-apt-get install libdrm-dev -y  && \
-apt-get install -y libavresample-dev
 RUN wget https://ffmpeg.org/releases/ffmpeg-4.2.1.tar.bz2  && \
 tar -xf ffmpeg-4.2.1.tar.bz2  && \
 rm ffmpeg-4.2.1.tar.bz2  && \
