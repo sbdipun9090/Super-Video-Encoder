@@ -23,7 +23,7 @@ try:
     OWNER = config("OWNER")
     FFMPEG = config(
         "FFMPEG",
-        default='ffmpeg -i "{}" -preset ultrafast -c:v libx265 -crf 27 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? "{}"',
+        default='ffmpeg i "{}" -hide_banner -c:v libx265 -vf scale=1280:-2 -x265-params log-level=error:limit-sao:psy-rd=1.5:psy-rdoq=2:aq-mode=3:qcomp=0.75:ref=6:deblock=-1,-1 -pix_fmt yuv420p10 -metadata title="t.me/kingsb007" -preset veryfast -crf 25 -r 23.976 -map 0:v -c:a aac -b:a 48k -cutoff 20000 -vbr on -map 0:a -c:s copy -map 0:s?"{}" ',
     )
     THUMB = config("THUMBNAIL")
 except Exception as e:
