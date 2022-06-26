@@ -23,7 +23,7 @@ try:
     OWNER = config("OWNER")
     FFMPEG = config(
         "FFMPEG",
-        default='ffmpeg -i "{}" -hide_banner -preset veryfast -c:v libx264 -s 846x480 -pix_fmt yuv420p -crf 27 -metadata title="t.me/kingsb007" -map 0:v -b:a 48k -c:a libfdk_aac -profile:a aac_he_v2 -map 0:a -vbr 2 -c:s copy -map 0:s? "{}" -y',
+        default='ffmpeg -i "{}" -preset ultrafast -c:v libx265 -crf 27 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? "{}"',
     )
     THUMB = config(
         "THUMBNAIL", default="https://telegra.ph/file/75ee20ec8d8c8bba84f02.jpg"
